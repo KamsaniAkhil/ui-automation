@@ -180,15 +180,7 @@ public class AppTest
        driver.manage().window().maximize();  
 
 	   driver.navigate().to("https://dev-losan-d.aims360runway.com/");
-	   logger.info("Getting UserName component and send username");
-		driver.findElement(By.xpath("//input[@type='email']")).sendKeys(username);
-
-		logger.info("Getting password component and send password");
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
-
-		logger.info("Getting Sign In component");
-		driver.findElement(By.xpath("//button[contains(@class,'btn-success')]")).click();
-
+	   System.out.println("Login page open successfully");
        
               
     }
