@@ -5,7 +5,13 @@
     <classes>
       <class name="BaseTesting.SampleTest.AppTest">
         <methods>
-          <include name="shouldAnswerWithTrue"/>
+          <include name="setup"/>
+          <include name="SidebarMenuOptions"/>
+          <include name="headerTitleName"/>
+          <include name="landingWelcomePage"/>
+          <include name="beforeMethod"/>
+          <include name="footerElements"/>
+          <include name="unsetUp"/>
         </methods>
       </class> <!-- BaseTesting.SampleTest.AppTest -->
     </classes>
